@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="AvatarViewSample.MainPage"
+             Padding="0, 40">
+
+    <ScrollView>
+        <StackLayout HorizontalOptions="Center">
+            <xct:AvatarView
+                Size="100"/>
+
+            <xct:AvatarView
+                Size="100"
+                Text="AM"
+                ColorTheme="{x:Static xct:ColorTheme.Jungle}"/>
+
+            <xct:AvatarView
+                Size="100"
+                Text="AK"
+                ColorTheme="{x:Static xct:ColorTheme.Jungle}"/>
+
+            <xct:AvatarView
+                Size="100"
+                Text="AK"
+                ColorTheme="{x:Static xct:ColorTheme.Ocean}"/>
+
+            <xct:AvatarView
+                Size="100"
+                Source="https://avatars.githubusercontent.com/u/10124814?v=4" />
+
+
+        <xct:AvatarView
+                Size="100"
+                Text="TS"
+                ColorTheme="{x:Static xct:ColorTheme.Ocean}"/>
+
+            <xct:AvatarView
+                Size="100"
+                Text="OP"
+                ColorTheme="{x:Static xct:ColorTheme.Ocean}"/>
+
+            <xct:AvatarView
+                Size="100"
+                Text="WA"
+                ColorTheme="{x:Static xct:ColorTheme.Ocean}"/>
+
+            <xct:AvatarView
+                Size="100"
+                Text="AM"
+                ColorTheme="{x:Static xct:ColorTheme.Ocean}"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
